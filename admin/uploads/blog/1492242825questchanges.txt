@@ -1,0 +1,184 @@
+Pandichery ---- 6432 ---main-min2.css
+
+after:
+
+#page .slide .zooEntrance {
+    background: rgba(0, 0, 0, 0) url("images/Pondi.png") no-repeat scroll 0 0;
+    display: block;
+    height: 613px;
+    left: 73%;
+    margin: 0 0 0 -309px;
+    position: absolute;
+    top: 805px;
+    transform: translate3d(0px, 0px, 0px);
+    width: 862px;
+    z-index: 51;
+}
+
+
+Befrore:
+
+#page .slide .zooEntrance{
+	background:url(images/bg_sanDiegoZooSign.png) no-repeat 0 0;margin:0 0 0 -309px;position:absolute;display:block;height:346px;width:753px;z-index:51;top:270px;left:50%;-webkit-transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+---------------------------------------------
+
+thanjavar:
+
+before:
+
+#page .slide.rocky.morroRock .ground .land .beach 
+{background:url(images/bg_big-sur-beach.png) no-repeat 100% 0,
+url(images/bg_morroRock-Beach.png) no-repeat 0 0;
+width:490px;
+}
+
+
+After:
+#page .slide.rocky.morroRock .ground .land .beach 
+{background:url(images/Thanjavur.png) no-repeat 100% 0,
+url(images/Thanjavur.png) no-repeat 0 0;
+width:490px;
+left:50%;
+top:550px;
+}
+
+
+
+-------------------------------------
+tiruchanapalli:
+
+befor:
+#page .slide.santaMonica .ground .land .houses>li 
+{background:url(images/bg_chinaTownHouse-alternate.gif) repeat-x 0 0 #888;
+border:16px solid #CECEBF;
+display:block;
+height:338px;
+clear:both;
+-webkit-box-shadow:inset 23px 0 0 rgba(0,0,0,.2);
+box-shadow:inset 23px 0 0 rgba(0,0,0,.2);  
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+
+
+after:
+
+#page .slide.santaMonica .ground .land .houses>li 
+{background:url(images/Tiruchirapalli.png) repeat-x 0 0;
+display:block;
+height:1030px;
+width:550px;
+clear:both;
+-webkit-box-shadow:inset 23px 0 0 rgba(0,0,0,.2);
+margin-top:125px; 
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+
+--------------------
+
+rameshwaram
+
+before:
+
+#page .slide.hollywood .ground .hollywoodSign
+{background:url(images/bg_hollywoodHill.png) no-repeat 0 0;
+margin:0 0 0 -1000px;
+position:absolute;
+display:block;
+height:1599px;
+width:2000px;
+z-index:51;
+left:50%;
+top:1px;   
+-webkit-transform: translate3d(0,0,0);
+}
+
+
+after:
+
+#page .slide.hollywood .ground .hollywoodSign
+{background:url(images/Rameshwaram_1.png) no-repeat 0 0;
+margin:0 0 0 -1000px;
+position:absolute;
+display:block;
+height:1599px;
+width:2000px;
+z-index:51;
+left:60%;
+top:650px;   
+-webkit-transform: translate3d(0,0,0);
+}
+
+-------------------------------
+
+madurai:
+
+before:
+
+#page .slide .landscape .ground .lillyPond
+{background:url(images/bg_lillyPond.png) no-repeat 0 0;
+margin:0 0 0 220px;
+position:absolute;
+display:block;
+height:597px;
+width:521px;
+top:1440px;
+z-index:1;
+left:50%;
+}
+
+
+after:
+
+#page .slide .landscape .ground .lillyPond
+{background:url(images/Madurai.png) no-repeat 0 0;
+margin:0 0 0 220px;
+position:absolute;
+display:block;
+height:597px;
+width:521px;
+top:1362px;
+z-index:1;
+left:50%;
+}
+
+
+---------------------------------
+
+alazapur:    750
+
+before:
+#page .slide .ground .land .beach{
+	position:relative;
+	background:#FFFF73;
+	display:block;
+	height:100%;
+	width:92px;
+	float:left;
+	z-index:1;
+	
+}
+
+
+after:
+
+#page .slide .ground .land .beach{
+	position:relative;
+	background:rgba(0, 0, 0, 0) url("images/Alapuzha.png") repeat scroll 0 0;
+	display:block;
+	height:100%;
+	width:580px;
+	float:left;
+	z-index:1;
+	
+}

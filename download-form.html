@@ -1,0 +1,113 @@
+<?php require_once "header.php";?>
+
+	<!---- css ---->
+	<style>
+		p{
+			text-align:justify;
+		}
+		h3 {font-size:18px;}
+	</style>
+	<!---- css end ---->
+	
+	
+		
+	<section>
+		<div class="block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 column">
+						<div class="detail-page">
+							<div class="row">
+								<div class="col-md-12 column">
+									<div class="col-md-2 column"></div>
+									<div class="col-md-6 column" style="padding: 50px 0;">
+										<form  class="contact" method="post" action="#" enctype="multipart/form-data">
+											<div class="row-1">
+												<div class="contact-first-name">
+													<input type="text" id="name" name="name" placeholder="Name" class="jx-form-text" data-validation="required" required/>
+													<!-- First Name Textbox -->
+												</div>
+												
+												<div class="contact-radio" style="border-bottom:1px solid">												
+													<label>gender</label><input type="radio" name="gender" value="male"> Male<br>
+													<input type="radio" name="gender" value="female"> Female<br>
+												</div>
+
+												<div class="contact-date">
+													<input class="popupDatepicker" name="dob" type="text" placeholder="Date of birth" required/>
+												</div>
+												
+												<div class="contact-email">
+													<input type="text" id="email" name="email" placeholder="Email Address" class="jx-form-text" data-validation="email" required/>
+													<br>
+													<!-- Email Name Textbox -->
+												</div>
+												
+												<div class="contact-date">
+													<input name="nationality" type="text" placeholder="Nationality" required/>
+												</div>
+												
+												<div class="contact-date">
+													<input name="number" type="text" placeholder="Phone Number" required/>
+												</div>
+												
+												<div class="contact-message">
+													<textarea id="message" name="education" class="jx-form-textarea" rows="5" cols="30" placeholder="Educational Qualification" data-validation="required" style="border-bottom:1px solid;" required></textarea>
+													<!-- Message Box -->
+												</div>
+												
+												<div class="contact-message">
+													<textarea id="message" name="role" class="jx-form-textarea" rows="5" cols="30" placeholder="Current/Last Professional Role" data-validation="required" style="border-bottom:1px solid;" required></textarea>
+													<!-- Message Box -->
+												</div>
+												
+												<div class="contact-message">
+													<textarea id="message" name="domain" class="jx-form-textarea" rows="5" cols="30" placeholder="What domain are you looking for" data-validation="required" style="border-bottom:1px solid;" required></textarea>
+													<!-- Message Box -->
+												</div>
+												
+											</div>
+												
+												<h2 style="padding:25px 0;">General Questions</h2>
+												
+												<div class="contact-radio" style="border-bottom:1px solid">		
+													<label>Have you ever been to India before? </label>
+													<input type="radio" name="gender" value="yes"> YES<br>
+													<input type="radio" name="gender" value="no"> NO<br>
+												</div>
+												
+												<div class="row-1">
+													<div class="contact-message">
+														<textarea id="message" name="message" class="jx-form-textarea" rows="5" cols="30" placeholder="What excites you about your Domain?" data-validation="required" style="border-bottom:1px solid;" required></textarea>
+														<!-- Message Box -->
+													</div>
+
+													<div class="contact-message">
+														<textarea id="message" name="message1" class="jx-form-textarea" rows="5" cols="30" placeholder="5 experiences of a tour that make a good tour even better for you" data-validation="required" style="border-bottom:1px solid;" required></textarea>
+														<!-- Message Box -->
+													</div>
+													
+													<div class="contact-message">
+														<textarea id="message" name="message2" class="jx-form-textarea" rows="5" cols="30" placeholder="5 experiences of a tour that make a good tour even better for you" data-validation="required" style="border-bottom:1px solid;" required></textarea>
+														<!-- Message Box -->
+													</div>
+													
+													<div class="contact-submit">
+														<input type="submit" id="submit" name="submit" class="jx-submit" value="Contact Now" />
+														<!-- Submit Button -->
+													</div>
+												</div> 
+											</form>
+									
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Details Page -->
+
+	<?php require_once "footer.php";?> 
